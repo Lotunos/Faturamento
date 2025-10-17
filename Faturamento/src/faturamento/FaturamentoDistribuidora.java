@@ -39,7 +39,8 @@ public class FaturamentoDistribuidora {
 
             System.out.printf("Menor: %.2f\nMaior: %.2f\nDias acima da media: %d\n", menor, maior, acimaMedia);
         }catch(IOException | NumberFormatException | ParserConfigurationException | DOMException | SAXException e){
-             System.out.println("Erro: "+e);   
+             System.out.println("Erro: "+e);
+             System.out.println("noma mensagem");   
         }
     }
 }
